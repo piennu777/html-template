@@ -1,0 +1,333 @@
+<!-- 
+   ______     ________      ______       ___   __       ___   __       __  __      
+  /_____/\   /_______/\    /_____/\     /__/\ /__/\    /__/\ /__/\    /_/\/_/\     
+  \:::_ \ \  \__.::._\/    \::::_\/_    \::\_\\  \ \   \::\_\\  \ \   \:\ \:\ \    
+   \:(_) \ \    \::\ \      \:\/___/\    \:. `-\  \ \   \:. `-\  \ \   \:\ \:\ \   
+    \: ___\/    _\::\ \__    \::___\/_    \:. _    \ \   \:. _    \ \   \:\ \:\ \  
+     \ \ \     /__\::\__/\    \:\____/\    \. \`-\  \ \   \. \`-\  \ \   \:\_\:\ \ 
+      \_\/     \________\/     \_____\/     \__\/ \__\/    \__\/ \__\/    \_____\/ 
+
+  Open source pages developed by PIENNU
+  You may also delete this message :)
+                          
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <title> </title>
+    <meta name="description" content="">
+    <meta name="copyright" content="Copyright &copy; 2024 name. All rights reserved." />
+    <meta property="og:title" content="PIENNU" />
+    <meta property="og:site_name" content=" ">
+    <meta property="og:image" content=" ">
+    <meta property="og:image:alt" content="バナー画像">
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="keywords" content="PIENNU">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 
+       Font Awesome Free 6.0.0-beta3 by @fontawesome - https://fontawesome.com
+       License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+       Copyright 2021 Fonticons, Inc.
+    -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            background-image: url('back.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            max-width: 0px;
+            margin: 0 auto;
+        }
+
+        .intro {
+            flex: 1;
+            padding: 2rem;
+            min-width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .icon {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 70px;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 23px;
+            line-height: 1.6;
+        }
+
+        .icon-circle {
+            width: 380px;
+            height: 380px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            filter: drop-shadow(1px 1px 170px #ff0000a4);
+            overflow: hidden;
+        }
+
+        .icon-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            animation: rotateHand 1s ease-out;
+        }
+
+        @keyframes rotateHand {
+            0% {
+                transform: rotate(-15deg);
+            }
+
+            25% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(-15deg);
+            }
+
+            75% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: start;
+            gap: 1rem;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: start;
+            gap: 1rem;
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            font-size: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            filter: drop-shadow(1px 1px 50px #ff0000);
+            transform: scale(0.9);
+        }
+
+        /* モバイル */
+        @media (max-width: 1000px) {
+            h1 {
+                font-size: 50px;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 1.6;
+            }
+
+            .icon-circle {
+                width: 250px;
+                height: 250px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                filter: drop-shadow(1px 1px 170px #ff0000a4);
+                overflow: hidden;
+            }
+
+            .icon-image {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                animation: rotateHand 1s ease-out;
+            }
+        }
+
+        @media (max-width: 950px) {
+            h1 {
+                font-size: 50px;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 1.6;
+            }
+
+            .icon-circle {
+                width: 200px;
+                height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                filter: drop-shadow(1px 1px 170px #ff0000a4);
+                overflow: hidden;
+            }
+
+            .icon-image {
+                width: 0%;
+                height: 0%;
+                object-fit: cover;
+                animation: rotateHand 1s ease-out;
+            }
+        }
+
+        @media (max-width: 800px) {
+
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                font-family: 'Arial', sans-serif;
+                color: #ffffff;
+            }
+
+            .container {
+                display: grid;
+                justify-content: center;
+                height: 100%;
+                max-width: 0px;
+                margin: 0 auto;
+            }
+
+            .intro {
+                flex: 1;
+                padding: 2rem;
+                min-width: 500px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 555px) {
+
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                font-family: 'Arial', sans-serif;
+                color: #ffffff;
+            }
+
+            .intro {
+                flex: 0;
+                padding: 0rem;
+                min-width: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            h1 {
+                font-size: 40px;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 1.6;
+            }
+        }
+
+        @media (max-width: 450px) {
+
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                font-family: 'Arial', sans-serif;
+                color: #ffffff;
+            }
+
+            .intro {
+                flex: 0;
+                padding: 0rem;
+                min-width: 320px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 385px) {
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                font-family: 'Arial', sans-serif;
+                color: #ffffff;
+            }
+
+            .intro {
+                flex: 0;
+                padding: 0rem;
+                min-width: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="intro">
+            <h1><b>Hi, It's<br>
+                    <spam style="color: #ff4545;filter: drop-shadow(1px 1px 50px #ff00009c);">PIENNU
+                    </spam>
+                </b></h1>
+            <p>Anyone is free to make changes to the source code here. Feel free to tinker with it!</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@piennu_777/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://x.com/piennu_777" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/piennu777" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fa-solid fa-flask"></i></a>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="icon-circle">
+                <img src="hey.png" alt="👋" class="icon-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
